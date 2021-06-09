@@ -5,9 +5,9 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 import { logoTL } from "./logo"
 import { logoMorphTL } from "./logoMorph"
-import { planetZoomTL } from "./planetZoom"
-import { asteroidFlyTL } from "./asteroidFly"
-import { landingTL } from "./landing"
+import { logoZoomTL } from "./logoZoom"
+import { gasSpeedTL } from "./gasSpeed"
+import { wheretoTL } from "./whereto"
 import { shootingStarsTL } from "./shootingStars"
 import { ufoEndingTL } from "./ufoEnding"
 
@@ -21,13 +21,11 @@ mainTL.add(logoTL)
 
         .add(logoMorphTL)
 
-        .add(liftOffTL)
-        
-        .add(planetZoomTL)
+        .add(logoZoomTL)
 
-        .add(landingTL) 
+        .add(gasSpeedTL) 
         
-        .add(asteroidFlyTL)
+        .add(wheretoTL)
         
         .add(shootingStarsTL)
         
