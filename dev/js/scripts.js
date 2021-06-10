@@ -8,8 +8,7 @@ import { logoMorphTL } from "./logoMorph"
 import { logoZoomTL } from "./logoZoom"
 import { gasSpeedTL } from "./gasSpeed"
 import { wheretoTL } from "./whereto"
-import { shootingStarsTL } from "./shootingStars"
-import { ufoEndingTL } from "./ufoEnding"
+import { endingTL } from "./ending"
 
 
 
@@ -27,9 +26,7 @@ mainTL.add(logoTL)
         
         .add(wheretoTL)
         
-        .add(shootingStarsTL)
-        
-        .add(ufoEndingTL);
+        .add(endingTL);
 
 
 // console.log(numberThing);
